@@ -61,7 +61,6 @@ async def read_folder(path: Path, output: Path) -> None:
 
 async def main():
     args = parse_arguments()
-    print(f"{args.source}")
     source = Path(args.source)
     output = Path(args.output)
 
